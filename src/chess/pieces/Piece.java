@@ -10,11 +10,10 @@ public abstract class Piece {
         this.color = color;
     }
 
-    public abstract boolean stepValidation(int[] coordinates);
-
     public Color getColor() {
         return color;
     }
+
 
     public void setColor(Color color) {
         this.color = color;

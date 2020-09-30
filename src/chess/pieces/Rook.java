@@ -2,9 +2,14 @@ package chess.pieces;
 
 import chess.Color;
 
-public class Rook extends Piece{
+public class Rook extends Piece implements GenericValidation{
     public Rook(Color color) {
         super(color);
+    }
+
+    @Override
+    public String toString() {
+        return "Rook";
     }
 
     @Override
